@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Taberna Tomasa · Taberna y tienda en Valdeprados, Segovia</title>
+  <meta name="description" content="Taberna Tomasa: cocina casera para compartir y tienda de ultramarinos en Valdeprados (Segovia). Reservas en el 921 06 25 16.">
+  <meta name="theme-color" content="#EFE7D8">
+  <link rel="canonical" href="https://tabernatomasa.es/">
+
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="Taberna Tomasa · Valdeprados, Segovia">
+  <meta property="og:description" content="Cocina casera para compartir y tienda de ultramarinos en la sierra de Segovia.">
+  <meta property="og:image" content="img/interior.jpg">
+  <meta property="og:locale" content="es_ES">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%238E3F24'/%3E%3Ctext x='32' y='45' font-family='Arial' font-size='38' font-weight='700' fill='%23F7EFE2' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  <link rel="preload" as="image" href="img/interior.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Taberna Tomasa",
+    "image": "img/interior.jpg",
+    "telephone": "+34 921 06 25 16",
+    "servesCuisine": "Cocina casera española",
+    "acceptsReservations": "True",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Otero, 10",
+      "postalCode": "40423",
+      "addressLocality": "Valdeprados",
+      "addressRegion": "Segovia",
+      "addressCountry": "ES"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Thursday", "Friday", "Saturday"], "opens": "11:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "18:00" }
+    ],
+    "sameAs": ["https://www.instagram.com/tabernatomasa/"]
+  }
+  </script>
+</head>
+<body>
+
+<!-- Cabecera con menú hamburguesa -->
+<header class="header">
+  <div class="w header__bar">
+    <a href="#inicio" class="header__brand">Taberna Tomasa</a>
+    <button type="button" class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <svg class="burger__open" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="burger__close" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav id="menu" class="menu" aria-label="Índice" hidden>
+    <div class="w">
+      <a class="menu__link" href="#inicio"><span>Inicio</span><span class="menu__num">01</span></a>
+      <a class="menu__link" href="#casa"><span>Nuestra casa</span><span class="menu__num">02</span></a>
+      <a class="menu__link" href="#carta"><span>La carta</span><span class="menu__num">03</span></a>
+      <a class="menu__link" href="#tienda"><span>La tienda</span><span class="menu__num">04</span></a>
+      <a class="menu__link" href="#opiniones"><span>Lo que nos decís</span><span class="menu__num">05</span></a>
+      <a class="menu__link" href="#donde"><span>Dónde estamos</span><span class="menu__num">06</span></a>
+      <div class="menu__extra">
+        <a href="tel:+34921062516">921 06 25 16</a>
+        <a href="https://www.instagram.com/tabernatomasa/" rel="noopener" target="_blank">Instagram</a>
+        <span>C/ Otero, 10 · Valdeprados</span>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Portada -->
+  <section id="inicio" class="hero">
+    <img class="hero__img" src="img/interior.jpg" width="2000" height="2667" fetchpriority="high"
+         alt="Nuestro interior: vigas de madera, plantas, las estanterías de la tienda y el pinball">
+    <div class="hero__shade" aria-hidden="true"></div>
+    <div class="w hero__text">
+      <h1 class="hero__title">Taberna Tomasa</h1>
+      <p class="hero__sub">Taberna y tienda · Valdeprados, Segovia</p>
+    </div>
+  </section>
+
+  <!-- Estado + tira de fotos -->
+  <section class="intro">
+    <div class="w">
+      <p class="status" id="status">
+        <span class="status__dot" aria-hidden="true"></span>
+        <span><strong class="status__label">Jueves a domingo</strong> · <span class="status__detail">desde las 11:00</span></span>
+      </p>
+    </div>
+    <div class="strip" aria-label="Fotos de la taberna">
+      <img src="img/garbanzos.jpg" width="1088" height="1344" loading="lazy" alt="Garbanzos con gambas y calamar">
+      <img src="img/terraza.jpg" width="1200" height="1500" loading="lazy" alt="Nuestra terraza con sillas verdes y geranios">
+      <img src="img/tienda.jpg" width="1200" height="1500" loading="lazy" alt="Rincón de la tienda con báscula antigua y vermuts">
+      <img src="img/mesa.jpg" width="1200" height="1600" loading="lazy" alt="Mesa del patio con cubiertos y paño de cuadros">
+      <img src="img/pared.jpg" width="1088" height="1344" loading="lazy" alt="Pared con cuadros y el rótulo Tabernita Tomasa">
+    </div>
+  </section>
+
+  <!-- Nuestra casa -->
+  <section id="casa" class="block">
+    <div class="w sec">
+      <p class="sec__label">Nuestra casa</p>
+      <div class="sec__body">
+        <h2 class="h2 h2--wide">Valdeprados enamora desde la primera visita. Nosotros tenemos la suerte de vivirlo cada día del año.</h2>
+        <div class="split">
+          <p class="text">Somos Victoria y Mariano, y Tomasa es nuestra taberna y también nuestra casa. Un negocio familiar en un pueblo pequeño de la sierra de Segovia, lleno de cosas que nos gustan: vigas de madera, básculas antiguas, alacenas, plantas por todas partes y un pinball que no pensamos jubilar.</p>
+          <p class="text">Aquí se viene a compartir platos, a charlar sin prisa y a reírse un rato. Nos encanta conoceros y que os vayáis con ganas de volver. La sonrisa viene en el ADN de Taberna Tomasa.</p>
+        </div>
+        <p class="signature">Victoria y Mariano</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- La carta -->
+  <section id="carta" class="block">
+    <div class="w sec">
+      <p class="sec__label">La carta</p>
+      <div class="sec__body">
+        <h2 class="h2">Lo que cocinamos.</h2>
+        <p class="text lead">Comida casera, hecha aquí y pensada para compartir. Pedid varios platos al centro y preguntadnos por los fuera de carta: siempre hay algo que no está escrito.</p>
+
+        <div class="tabs" role="tablist" aria-label="Secciones de la carta">
+          <button type="button" class="tab" role="tab" id="tab-raciones" aria-controls="panel-raciones" aria-selected="true">Raciones</button>
+          <button type="button" class="tab" role="tab" id="tab-ensaladas" aria-controls="panel-ensaladas" aria-selected="false" tabindex="-1">Ensaladas y tostas</button>
+          <button type="button" class="tab" role="tab" id="tab-postres" aria-controls="panel-postres" aria-selected="false" tabindex="-1">Postres</button>
+          <button type="button" class="tab" role="tab" id="tab-fuera" aria-controls="panel-fuera" aria-selected="false" tabindex="-1">Fuera de carta</button>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-raciones" aria-labelledby="tab-raciones">
+          <div class="dish"><div><h3>Croquetas caseras</h3><p>Las de bacalao y las que toquen ese día.</p></div><img src="img/croquetas.jpg" width="215" height="280" loading="lazy" alt="Croquetas caseras"></div>
+          <div class="dish"><div><h3>Tortilla de patatas</h3><p>La hacemos al momento, jugosa.</p></div><img src="img/tortilla.jpg" width="215" height="280" loading="lazy" alt="Tortilla de patatas"></div>
+          <div class="dish"><div><h3>Migas extremeñas</h3><p>Con su huevo frito y sus uvas.</p></div><img src="img/migas.jpg" width="215" height="280" loading="lazy" alt="Migas extremeñas con huevo frito y uvas"></div>
+          <div class="dish"><div><h3>Torreznos</h3><p>Crujientes por fuera, tiernos por dentro.</p></div><img src="img/torreznos.jpg" width="215" height="280" loading="lazy" alt="Torreznos"></div>
+          <div class="dish"><div><h3>Lagarto ibérico</h3><p>A la plancha, para compartir.</p></div></div>
+          <div class="dish"><div><h3>Nuestros guisos</h3><p>Garbanzos con gambas y calamar, oreja guisada, lengua estofada.</p></div></div>
+          <div class="dish"><div><h3>Tabla de quesos</h3><p>Quesos de la zona.</p></div></div>
+        </div>
+        <div class="panel" role="tabpanel" id="panel-ensaladas" aria-labelledby="tab-ensaladas">
+          <div class="dish"><div><h3>Ensalada de tomate</h3><p>Tomate de temporada con queso fresco.</p></div><img src="img/ensalada.jpg" width="215" height="280" loading="lazy" alt="Ensalada de tomate"></div>
+          <div class="dish"><div><h3>Ensalada de naranja</h3><p>La que más os sorprende.</p></div></div>
+          <div class="dish"><div><h3>Tostas y pizarritas</h3><p>Para picar con un vermut o un vino.</p></div></div>
+          <div class="dish"><div><h3>Latería</h3><p>Conservas de nuestra tienda.</p></div></div>
+        </div>
+        <div class="panel" role="tabpanel" id="panel-postres" aria-labelledby="tab-postres">
+          <div class="dish"><div><h3>Tarta de queso</h3><p>La que más nos pedís.</p></div><img src="img/tarta.jpg" width="215" height="280" loading="lazy" alt="Tarta de queso"></div>
+          <div class="dish"><div><h3>Tarta de chocolate</h3><p>También la hacemos sin lactosa.</p></div></div>
+          <div class="dish"><div><h3>Goxua</h3><p>Bizcocho, nata y crema tostada.</p></div></div>
+        </div>
+        <div class="panel" role="tabpanel" id="panel-fuera" aria-labelledby="tab-fuera">
+          <div class="dish"><div><h3>Escabeches caseros</h3><p>Lomo y otros escabeches que preparamos aquí.</p></div></div>
+          <div class="dish"><div><h3>Judiones con setas</h3><p>Cuchara de la sierra de Segovia.</p></div></div>
+          <div class="dish"><div><h3>Cochifrito</h3><p>Cuando lo hay, no lo dejéis escapar.</p></div></div>
+          <div class="dish"><div><h3>Judías con calamares</h3><p>Guiso de mar y montaña.</p></div></div>
+        </div>
+
+        <p class="note">La carta cambia con la temporada. Tenemos postres sin lactosa y también preparamos comida para llevar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- La tienda -->
+  <section id="tienda" class="block">
+    <div class="w sec">
+      <p class="sec__label">La tienda</p>
+      <div class="sec__body split split--end">
+        <img class="photo" src="img/tienda.jpg" width="1200" height="1500" loading="lazy"
+             alt="Un rincón de nuestra tienda: báscula antigua, vermuts, aceitunas y tablas de madera">
+        <div>
+          <h2 class="h2">Antes de sentaros, pasad por la tienda.</h2>
+          <p class="text">Vermuts, conservas, aceites, dulces y cosmética natural, entre básculas y alacenas de las de antes. Para llevaros un poco de Tomasa a casa o para hacer un regalo con sabor a pueblo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opiniones -->
+  <section id="opiniones" class="block">
+    <div class="w sec">
+      <p class="sec__label">Lo que nos decís</p>
+      <div class="sec__body">
+        <figure class="quote">
+          <blockquote>“Desde que entramos en el local nos hicieron sentir que estábamos en nuestra casa.”</blockquote>
+          <figcaption>Eri Flovi, en Google</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“Las migas extremeñas sublimes, al igual que la ensalada de naranja (sorprendente).”</blockquote>
+          <figcaption>Víctor Barahona, en Google</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“Fue una sorpresa y una suerte encontrar un lugar tan bonito, tan cálido, tan bien atendido y con comida tan rica.”</blockquote>
+          <figcaption>Wookie, en Google</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dónde estamos -->
+  <section id="donde" class="block block--last">
+    <div class="w sec">
+      <p class="sec__label">Dónde estamos</p>
+      <div class="sec__body">
+        <h2 class="h2">Calle Otero, 10. Valdeprados, Segovia.</h2>
+        <p class="text lead">Estamos en el centro del pueblo y podéis aparcar gratis en la calle. Llamadnos antes para reservar mesa, sobre todo si venís el fin de semana.</p>
+        <div class="split">
+          <div>
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Taberna+Tomasa+Calle+Otero+10+Valdeprados+Segovia" rel="noopener" target="_blank">
+              <span>Cómo llegar</span><span class="maps__hint">Google Maps</span>
+            </a>
+            <a class="lnk" href="https://www.instagram.com/tabernatomasa/" rel="noopener" target="_blank">Instagram · @tabernatomasa</a>
+          </div>
+          <div>
+            <h3 class="hours__title">Cuándo abrimos</h3>
+            <ul class="hours" id="hours">
+              <li data-day="1"><span>Lunes</span><span>Cerrado</span></li>
+              <li data-day="2"><span>Martes</span><span>Cerrado</span></li>
+              <li data-day="3"><span>Miércoles</span><span>Cerrado</span></li>
+              <li data-day="4" data-open="11" data-close="23"><span>Jueves</span><span>11:00–23:00</span></li>
+              <li data-day="5" data-open="11" data-close="23"><span>Viernes</span><span>11:00–23:00</span></li>
+              <li data-day="6" data-open="11" data-close="23"><span>Sábado</span><span>11:00–23:00</span></li>
+              <li data-day="0" data-open="11" data-close="18"><span>Domingo</span><span>11:00–18:00</span></li>
+            </ul>
+            <p class="note">En festivos y puentes a veces cambiamos el horario. Si tenéis dudas, llamadnos.</p>
+          </div>
+        </div>
+        <dl class="facts">
+          <div><dt>Terraza</dt><dd>Sí, en nuestro patio</dd></div>
+          <div><dt>Para llevar</dt><dd>Sí, pedídnoslo</dd></div>
+          <div><dt>Accesibilidad</dt><dd>Entrada, mesas y aseo adaptados</dd></div>
+          <div><dt>Pago</dt><dd>Tarjeta y móvil</dd></div>
+          <div><dt>Aparcamiento</dt><dd>Gratis en la calle</dd></div>
+          <div><dt>Grupos</dt><dd>Llamadnos antes</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="w footer__inner">
+    <p class="footer__bye">Nos vemos pronto en Tomasa.</p>
+    <p class="footer__legal">Taberna Tomasa · Valdeprados · © <span id="year">2026</span></p>
+  </div>
+</footer>
+
+<!-- Botón fijo de reserva -->
+<div class="callbar">
+  <a class="callbar__btn" href="tel:+34921062516">
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span>Llámanos y reserva</span>
+    <span class="callbar__num">921 06 25 16</span>
+  </a>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
